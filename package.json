@@ -9,9 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Alex Grottola",
+  "license": "MIT",
+  "description": "Applicazione delle Metodologie SASS con Vite e Bootstrap",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
     "postcss": "^8.4.49",
