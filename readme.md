@@ -32,7 +32,12 @@ npm run serve
 ## Deploying della cartella dist su GitHub Pages
 Assicurati che la cartella 'dist' non sia esclusa da '.gitignore'
 
+## Aggiungo la cartella dist al branch main
 ```bash
 git add dist && git commit -m "aggiungo la sottocartella dist"
+```
+## Uso subtree push per inviarla alla  `gh-pages` branch on GitHub.
+```bash
+git subtree push --prefix dist origin gh-pages
 ```
 
