@@ -28,3 +28,11 @@ npm run build
 ```bash
 npm run serve
 ```
+
+## Deploying della cartella dist su GitHub Pages
+Assicurati che la cartella 'dist' non sia esclusa da '.gitignore'
+
+```bash
+git add dist && git commit -m "aggiungo la sottocartella dist"
+```
+
