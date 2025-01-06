@@ -1,4 +1,5 @@
 import { resolve } from "path";
+import postcssimport from "postcss-import";
 import purgecss from "@fullhuman/postcss-purgecss";
 import autoprefixer from "autoprefixer";
 import postcssPresetEnv from 'postcss-preset-env';
@@ -9,6 +10,7 @@ export default {
   css: {
     postcss: {
       plugins: [
+        postcssimport(),
         autoprefixer(),
         postcssPresetEnv({
           browsers: 'last 2 versions',
