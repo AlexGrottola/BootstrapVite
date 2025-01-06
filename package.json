@@ -14,6 +14,7 @@
   "description": "Applicazione delle Metodologie SASS con Vite e Bootstrap",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
+    "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "postcss-preset-env": "^10.1.3",
     "sass": "^1.83.1",

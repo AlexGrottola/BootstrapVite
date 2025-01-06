@@ -9,6 +9,7 @@ export default {
   css: {
     postcss: {
       plugins: [
+        autoprefixer(),
         postcssPresetEnv({
           browsers: 'last 2 versions',
           stage: 3,
