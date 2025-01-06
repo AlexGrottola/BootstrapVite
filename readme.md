@@ -2,7 +2,9 @@
 Repository per le lezioni su Bootstrap, SASS e Vite
 
 ## Clonare il repository
+```bash
 git clone https://github.com/AlexGrottola/BootstrapVite.git
+```
 
 ## Installare le dipendenze
 ```bash
