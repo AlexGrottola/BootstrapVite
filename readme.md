@@ -26,7 +26,7 @@ npm run build
 
 ## Visualizza il progetto finale con il server live di produzione
 ```bash
-npm run serve
+npm run preview
 ```
 
 ## Deploying della cartella dist su GitHub Pages
