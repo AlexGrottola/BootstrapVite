@@ -16,7 +16,7 @@ Personalizza il progetto con i files presenti nella cartella src
 
 ## Visualizza il progetto sul browser creando un server live
 ```bash
-npm run start
+npm run dev
 ```
 
 ## Crea la cartella per andare online
